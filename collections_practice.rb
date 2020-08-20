@@ -35,5 +35,6 @@ total
       if  index != 1 
         element[-1] = "s"
       end 
+    end
   end
     
