@@ -30,4 +30,7 @@ def sum_array(array)
    total = array.inject{|x,z| x + z}
 total 
   end
+  def add_s()
+  
+  end
     
