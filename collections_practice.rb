@@ -33,9 +33,9 @@ total
   def add_s(array)
     new = []
     array.each_with_index  do |element,index|
-      if index 
+      if index != 1 
       element << ("s")
-    
+    end
     end
 
   end
