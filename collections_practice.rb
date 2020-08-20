@@ -27,7 +27,8 @@ def find_a(array)
   array.select{|string| string.start_with?("a")}
 end
 def sum_array(array)
-  array.inject{|x,z| x + z}
-  array
+  total = []
+   total << array.inject{|x,z| x + z}
+  total
   end
     
