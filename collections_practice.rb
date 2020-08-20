@@ -31,10 +31,11 @@ def sum_array(array)
 total 
   end
   def add_s(array)
+    new = []
     array.collect do |element|
-       
         element[1] = "s"
-      
+      new << element
     end
+    element 
   end
     
