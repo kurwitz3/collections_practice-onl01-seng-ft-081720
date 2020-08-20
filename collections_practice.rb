@@ -33,7 +33,7 @@ total
   def add_s(array)
     new = []
     array.collect do |element|
-        element.push("s")
+        element << ("s")
       new << element
     end
     element 
