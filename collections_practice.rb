@@ -24,7 +24,6 @@ def kesha_maker(array)
   money
 end 
 def find_a(array)
-  array.select do |string|
-    if  string start_with?("a")
+  array.select{|string| string.start_with?("a")}
 end
     
