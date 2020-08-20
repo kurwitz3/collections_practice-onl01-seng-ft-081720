@@ -33,7 +33,8 @@ total
   def add_s(array)
     new = []
     array.each_with_index  do |element,index|
-      element[index] << ("s")
+      if index 
+      element << ("s")
     
     end
 
