@@ -36,5 +36,6 @@ total
      new =    element << ("s")
     
     end
+    new
   end
     
